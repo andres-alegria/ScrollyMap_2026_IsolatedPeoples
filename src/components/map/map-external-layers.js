@@ -1,4 +1,11 @@
 export default [
+  
+  {
+    id: '0448c79d-0ee0-42ff-9331-aeee70cef301', // Id of the DATASET on resource watch
+    slug: 'tree-cover', // New slug to call the layer in config.js
+    source: 'resource-watch' // This is needed for resource-watch layers
+  }
+  
   // {
   //   id: '0b9f0100-ce5b-430f-ad8f-3363efa05481',
   //   slug: 'overall-environmental-democracy-index-score',
