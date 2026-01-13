@@ -8,20 +8,20 @@ export default {
   showMarkers: false,
   theme: 'mongabay',
   intro: {
-    title: 'Shifting Sands',
+    title: 'Forests at the Edge',
     subtitle:
-      'Kerala’s 2016 ban on river sand mining was meant to save its waterways and lifelines. However, it had an unintended consequence.',
-    date: 'November 11, 2025',
+      "Tracking deforestation trends across isolated tribal lands worldwide. These are the 10 lands with the highest tree cover loss.",
+    date: 'January 21, 2026',
     social: [
       {
         name: 'X',
         src: 'x.svg',
-        href: 'https://x.com/mongabayindia',
+        href: 'https://x.com/mongabay',
       },
       {
         name: 'facebook',
         src: 'facebook.svg',
-        href: 'https://www.facebook.com/mongabayindia/',
+        href: 'https://www.facebook.com/mongabay/',
       },
     ],
   },
@@ -30,11 +30,11 @@ export default {
       name: 'mongabay',
       src: 'mongabaylogo.png',
       width: '140',
-      href: 'https://india.mongabay.com',
+      href: 'https://news.mongabay.com',
     },
   ],
   alignment: 'left',
-  footer: 'Produced by Kartik Chandramouli | Cartography by Andrés Alegría | Copy edits by Divya Kilikar | Banner image by AP Photo',
+  footer: 'Produced by Latoya Abulu | Cartography by Andrés Alegría',
  
   chapters: [
     
@@ -44,7 +44,7 @@ export default {
       alignment: 'left',
       hidden: false,
       title: ' ',
-      description: "The construction industry is Kerala’s largest consumer of river sand. Rampant sand mining led to falling groundwater levels, disrupted stream flows, and weakened bridges. <b>In June 2015, the Kerala government banned sand mining</b> in 6 rivers and restricted it in 5 others.",
+      description: "<b>Uncontacted peoples</b> generally refers to Indigenous peoples who have remained largely isolated to the present day, maintaining their traditional lifestyles and functioning mostly independently from any political or governmental entities.<br><br><b>Peoples in initial contact</b> share the same characteristics but beginning to regularly communicate with and integrate into mainstream society.",
         location: {
         center: [75.126410, 12.462606],
         zoom: 11.2,
@@ -54,9 +54,9 @@ export default {
       
        images: [
         {
-          src: 'photo0.jpg',
+          src: 'photo1.jpg',
           position: 'top',
-          title: 'Chandragiri River',
+          title: 'Mashco Piro people - Peruvian Amazon',
         },
       ],
       mapAnimation: 'easeTo',
@@ -114,13 +114,138 @@ export default {
       alignment: 'left',
       hidden: false,
       title: ' ',
-      description: "After the ban on river sand mining, miners turned to the hills of the Western Ghats, crushing quarried hard rock to produce manufactured sand, also known as <b>m-sand</b>. It is considered a sustainable alternative to natural sand.",
-       legend: [
+      description: "Legal protections make estimating the total number of uncontacted peoples challenging, but estimates from the Inter-American Commission on Human Rights in the UN and the nonprofit group Survival International point to between 100 and 200 uncontacted tribes numbering up to 10,000 individuals total.",
+     
+      location: {
+        center: [75.75, 10.75],
+        zoom: 6.25,
+        pitch: 25,
+        bearing: 0,
+      },
+      
+      mapAnimation: 'flyTo',
+      rotateAnimation: false,
+      onChapterEnter: [
+            {
+          layer: 'tree-cover',
+          opacity: 1,
+        }, 
         {
-          title: 'tree-cover',
-          fromLayer: 'tree-cover',
+          layer: 'waterway',
+          opacity: 0,
         },
+        {
+          layer: 'admin-0-boundary-disputed',
+          opacity: 0,
+        },
+        {
+          layer: 'admin-0-boundary-a',
+          opacity: 0,
+        },
+        {
+          layer: 'admin-0-boundary-b',
+          opacity: 0,
+        },
+
       ],
+        onChapterExit: [
+         {
+          layer: 'tree-cover',
+          opacity: 1,
+        }, 
+        {
+          layer: 'waterway',
+          opacity: 0,
+        },
+        {
+          layer: 'admin-0-boundary-disputed',
+          opacity: 0,
+        },
+        {
+          layer: 'admin-0-boundary-a',
+          opacity: 0,
+        },
+        {
+          layer: 'admin-0-boundary-b',
+          opacity: 0,
+        },
+        ],
+    },
+
+
+    // chapter 03
+    {
+      id: 'chapter 03',
+      alignment: 'left',
+      hidden: false,
+      title: ' ',
+      description: "Uncontacted peoples choose to live detached from the rest of the world, and their mobility patterns allow them to engage in gathering and hunting, thereby preserving their cultures and languages. <br><br>These peoples have a strict dependency on their ecological environment. Any changes to their natural habitat can harm both the survival of individual members and the group as a whole.",
+       
+      location: {
+        center: [75.75, 10.75],
+        zoom: 6.25,
+        pitch: 25,
+        bearing: 0,
+      },
+      
+      mapAnimation: 'flyTo',
+      rotateAnimation: false,
+      onChapterEnter: [
+            {
+          layer: 'tree-cover',
+          opacity: 1,
+        }, 
+        {
+          layer: 'waterway',
+          opacity: 0,
+        },
+        {
+          layer: 'admin-0-boundary-disputed',
+          opacity: 0,
+        },
+        {
+          layer: 'admin-0-boundary-a',
+          opacity: 0,
+        },
+        {
+          layer: 'admin-0-boundary-b',
+          opacity: 0,
+        },
+
+      ],
+        onChapterExit: [
+         {
+          layer: 'tree-cover',
+          opacity: 1,
+        }, 
+        {
+          layer: 'waterway',
+          opacity: 0,
+        },
+        {
+          layer: 'admin-0-boundary-disputed',
+          opacity: 0,
+        },
+        {
+          layer: 'admin-0-boundary-a',
+          opacity: 0,
+        },
+        {
+          layer: 'admin-0-boundary-b',
+          opacity: 0,
+        },
+        ],
+    },
+
+
+    // chapter 04
+    {
+      id: 'chapter 04',
+      alignment: 'left',
+      hidden: false,
+      title: ' ',
+      description: "Mongabay mapped legally recognized lands used by isolated Indigenous peoples worldwide and analyzed forest cover loss from 2010 to 2024. Boundaries were compiled and verified with Indigenous organizations, experts, and the international working group on Indigenous Peoples in Isolation and Initial Contact (GTI PIACI), using data from Global Forest Watch.<br><br><b>Below are the Top 10 lands used by isolated Indigenous peoples with highest tree cover loss.</b>",
+       
       location: {
         center: [75.75, 10.75],
         zoom: 6.25,
