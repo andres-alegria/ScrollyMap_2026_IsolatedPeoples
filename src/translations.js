@@ -1,3 +1,7 @@
+const translations = {
+  ...
+};
+
 export default {
   es: {
     "Narco airstrips": 'Narcopistas',

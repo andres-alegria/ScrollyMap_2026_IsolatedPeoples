@@ -1,3 +1,7 @@
+const externalLayers = [
+  ...
+];
+
 export default [
   
   {
