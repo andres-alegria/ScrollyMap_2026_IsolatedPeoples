@@ -11,7 +11,7 @@ const SocialIcons = ({ social }) => {
           href={social.href}
           // eslint-disable-next-line react/jsx-no-target-blank
           target="_blank"
-          rel="noreferrer noopener"
+          rel="noopener"
         >
           <img
             src={social.src}
