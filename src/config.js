@@ -121,7 +121,8 @@ export default {
       hidden: false,
       title: '#10 Awá',
       description: "Home to:<br><b>Isolated people of Mão de onça</b><br><br>• Country: Brazil<br>• Territory: 117,000 ha<br>• Forest loss: 15,000 ha<br>• Forest loss per ha of territory: 0.129 ha",
-                legend: [
+        
+      legend: [
         {
           title: 'Indigenous Territories',
           color: '#bdeaaf',
@@ -132,7 +133,6 @@ export default {
           color: '#e66d6d',
         },
          ],
-      
        
       location: {
         center: [-46.55,-3.367],
@@ -155,6 +155,18 @@ export default {
       title: '#9 Kayapó',
       description: "Home to:<br><b>Isolated people of Rio Fresco e Mebengôkre</b><br><br>• Country: Brazil<br>• Territory: 3,281,214 ha<br>• Forest loss: 455,000 ha<br>• Forest loss per ha of territory: 0.137 ha",       
 
+     legend: [
+        {
+          title: 'Indigenous Territories',
+          color: '#bdeaaf',
+          border: '#006a54',
+        },
+        {
+          title: 'Forest cover loss (2010—2024)',
+          color: '#e66d6d',
+        },
+         ],
+
       location: {
         center: [-52.008004, -7.525144],
         zoom: 7.2,
@@ -175,6 +187,18 @@ export default {
       hidden: false,
       title: '#8 Ituna/Itatá',
       description: "Home to:<br><b>Isolated people of Igarapé Ipiaçava</b><br><br>• Country: Brazil<br>• Territory: 142,807 ha<br>• Forest loss: 20,000 ha<br>• Forest loss per ha of territory: 0.140 ha",       
+  
+       legend: [
+        {
+          title: 'Indigenous Territories',
+          color: '#bdeaaf',
+          border: '#006a54',
+        },
+        {
+          title: 'Forest cover loss (2010—2024)',
+          color: '#e66d6d',
+        },
+         ],
   
       location: {
         center: [-52.046494, -4.127180],
@@ -197,6 +221,18 @@ export default {
       title: '#7 Otuquis National Park',
       description: "Home to:<br><b>The Ayoreo</b><br><br>• Country: Bolivia<br>• Territory: 902,168 ha<br>• Forest loss: 130,000 ha<br>• Forest loss per ha of territory: 0.144 ha",       
  
+      legend: [
+        {
+          title: 'Indigenous Territories',
+          color: '#bdeaaf',
+          border: '#006a54',
+        },
+        {
+          title: 'Forest cover loss (2010—2024)',
+          color: '#e66d6d',
+        },
+         ],
+ 
       location: {
         center: [-58.929783, -19.625294],
         zoom: 8.48,
@@ -217,6 +253,18 @@ export default {
       hidden: false,
       title: '#6 Araribóia',
       description: "Home to:<br><b>Isolated people of Awá</b><br><br>• Country: Brazil<br>• Territory: 413,548 ha<br>• Forest loss: 60,000 ha<br>• Forest loss per ha of territory: 0.145 ha",       
+  
+       legend: [
+        {
+          title: 'Indigenous Territories',
+          color: '#bdeaaf',
+          border: '#006a54',
+        },
+        {
+          title: 'Forest cover loss (2010—2024)',
+          color: '#e66d6d',
+        },
+         ],
   
       location: {
         center: [-46.426357, -5.097721],
@@ -239,6 +287,18 @@ export default {
       title: '#5 Apiaká-Kayabi',
       description: "Home to:<br><b>Isolated people of Rio dos Peixes</b><br><br>• Country: Brazil<br>• Territory: 109,278 ha<br>• Forest loss: 16,000 ha<br>• Forest loss per ha of territory: 0.146 ha",     
  
+      legend: [
+        {
+          title: 'Indigenous Territories',
+          color: '#bdeaaf',
+          border: '#006a54',
+        },
+        {
+          title: 'Forest cover loss (2010—2024)',
+          color: '#e66d6d',
+        },
+         ],
+ 
       location: {
         center: [-57.301323, -10.953149],
         zoom: 9.0,
@@ -259,6 +319,18 @@ export default {
       hidden: false,
       title: '#4 Chacobo-Pacahuara',
       description: "Home to:<br><b>The Pacahuara</b><br><br>• Country: Bolivia<br>• Territory: 517,307 ha<br>• Forest loss: 78,860 ha<br>• Forest loss per ha of territory: 0.152 ha",      
+
+     legend: [
+        {
+          title: 'Indigenous Territories',
+          color: '#bdeaaf',
+          border: '#006a54',
+        },
+        {
+          title: 'Forest cover loss (2010—2024)',
+          color: '#e66d6d',
+        },
+         ],
 
       location: {
         center: [-65.945549, -12.015914],
@@ -281,6 +353,18 @@ export default {
       title: "#3 T'simane Indigenous Territory",
       description: "Home to:<br><b>The T'simane</b><br><br>• Country: Bolivia<br>• Territory: 520,765  ha<br>• Forest loss: 100,000 ha<br>• Forest loss per ha of territory: 0.192 ha", 
   
+       legend: [
+        {
+          title: 'Indigenous Territories',
+          color: '#bdeaaf',
+          border: '#006a54',
+        },
+        {
+          title: 'Forest cover loss (2010—2024)',
+          color: '#e66d6d',
+        },
+         ],
+  
       location: {
         center: [-66.280377, -15.337741],
         zoom: 9.25,
@@ -302,6 +386,18 @@ export default {
       title: '#2 Xikrin do Cateté',
       description: "Home to:<br><b>Isolated people of the TI Xikrin do Cateté</b><br><br>• Country: Brazil<br>• Territory: 436,507 ha<br>• Forest loss: 95,000 ha<br>• Forest loss per ha of territory: 0.218 ha",      
    
+        legend: [
+        {
+          title: 'Indigenous Territories',
+          color: '#bdeaaf',
+          border: '#006a54',
+        },
+        {
+          title: 'Forest cover loss (2010—2024)',
+          color: '#e66d6d',
+        },
+         ],
+   
       location: {
         center: [-50.931125, -6.328561],
         zoom: 9.25,
@@ -322,7 +418,18 @@ export default {
       hidden: false,
       title: '#1 Ñembi guasu Conservation Area',
       description: "Home to:<br><b>The Ayoreo</b><br><br>• Country: Bolivia<br>• Territory: 1,134,788 ha<br>• Forest loss: 300,000 ha<br>• Forest loss per ha of territory: 0.264 ha",      
-       
+
+     legend: [
+        {
+          title: 'Indigenous Territories',
+          color: '#bdeaaf',
+          border: '#006a54',
+        },
+        {
+          title: 'Forest cover loss (2010—2024)',
+          color: '#e66d6d',
+        },
+         ],       
 
       location: {
         center: [-59.926808, -18.905330],
