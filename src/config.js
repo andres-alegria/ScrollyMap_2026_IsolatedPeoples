@@ -34,7 +34,7 @@ export default {
     },
   ],
   alignment: 'left',
-  footer: 'Produced by Latoya Abulu | Cartography by Andrés Alegría',
+  footer: 'Produced by Latoya Abulu | Banner Art by Emilie Languedoc | Cartography by Andrés Alegría',
  
   chapters: [
     
