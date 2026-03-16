@@ -1,7 +1,7 @@
 const { REACT_APP_MAPBOX_ACCESS_TOKEN } = process.env;
 
 export default {
-  style: 'mapbox://styles/mongabay/cmk2ljt5h000u01peeso670kk',
+  style: 'mapbox://styles/mongabay/cmmt0dcq1002401s89nkeh9zg',
   
   accessToken: REACT_APP_MAPBOX_ACCESS_TOKEN,
 
@@ -10,8 +10,8 @@ export default {
   intro: {
     title: 'Forests at the Edge',
     subtitle:
-      "Tracking deforestation trends across isolated tribal lands worldwide. These are the 10 lands with the highest tree cover loss.",
-    date: 'January 21, 2026',
+      "Tracking deforestation across isolated tribal lands worldwide. These are the 10 lands with the highest tree cover loss.",
+    date: 'March 21, 2026',
     social: [
       {
         name: 'X',
