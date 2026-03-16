@@ -125,8 +125,8 @@ export default {
       legend: [
         {
           title: 'Indigenous Territories',
-          color: '#bdeaaf',
-          border: '#006a54',
+          color: '#f9e5cd',
+          border: '#181818',
         },
         {
           title: 'Forest cover loss (2010—2024)',
@@ -158,8 +158,8 @@ export default {
      legend: [
         {
           title: 'Indigenous Territories',
-          color: '#bdeaaf',
-          border: '#006a54',
+          color: '#f9e5cd',
+          border: '#181818',
         },
         {
           title: 'Forest cover loss (2010—2024)',
@@ -191,8 +191,8 @@ export default {
        legend: [
         {
           title: 'Indigenous Territories',
-          color: '#bdeaaf',
-          border: '#006a54',
+          color: '#f9e5cd',
+          border: '#181818',
         },
         {
           title: 'Forest cover loss (2010—2024)',
@@ -224,8 +224,8 @@ export default {
       legend: [
         {
           title: 'Indigenous Territories',
-          color: '#bdeaaf',
-          border: '#006a54',
+          color: '#f9e5cd',
+          border: '#181818',
         },
         {
           title: 'Forest cover loss (2010—2024)',
@@ -257,8 +257,8 @@ export default {
        legend: [
         {
           title: 'Indigenous Territories',
-          color: '#bdeaaf',
-          border: '#006a54',
+          color: '#f9e5cd',
+          border: '#181818',
         },
         {
           title: 'Forest cover loss (2010—2024)',
@@ -290,8 +290,8 @@ export default {
       legend: [
         {
           title: 'Indigenous Territories',
-          color: '#bdeaaf',
-          border: '#006a54',
+          color: '#f9e5cd',
+          border: '#181818',
         },
         {
           title: 'Forest cover loss (2010—2024)',
@@ -323,8 +323,8 @@ export default {
      legend: [
         {
           title: 'Indigenous Territories',
-          color: '#bdeaaf',
-          border: '#006a54',
+          color: '#f9e5cd',
+          border: '#181818',
         },
         {
           title: 'Forest cover loss (2010—2024)',
@@ -356,8 +356,8 @@ export default {
        legend: [
         {
           title: 'Indigenous Territories',
-          color: '#bdeaaf',
-          border: '#006a54',
+          color: '#f9e5cd',
+          border: '#181818',
         },
         {
           title: 'Forest cover loss (2010—2024)',
@@ -389,8 +389,8 @@ export default {
         legend: [
         {
           title: 'Indigenous Territories',
-          color: '#bdeaaf',
-          border: '#006a54',
+           color: '#f9e5cd',
+          border: '#181818',
         },
         {
           title: 'Forest cover loss (2010—2024)',
@@ -422,8 +422,8 @@ export default {
      legend: [
         {
           title: 'Indigenous Territories',
-          color: '#bdeaaf',
-          border: '#006a54',
+           color: '#f9e5cd',
+          border: '#181818',
         },
         {
           title: 'Forest cover loss (2010—2024)',
