@@ -46,7 +46,7 @@ export default {
       title: ' ',
       description: "<b>Uncontacted peoples</b> generally refers to Indigenous peoples who have remained largely isolated to the present day, maintaining their traditional lifestyles and functioning mostly independently from any political or governmental entities.<br><br><b>Peoples in initial contact</b> share the same characteristics but beginning to regularly communicate with and integrate into mainstream society.",
       location: {
-        center: [29.715, 13.622],
+        center: [-87.0, 13.622],
         zoom: 2.1,
         pitch: 0,
         bearing: 0,
@@ -81,7 +81,7 @@ export default {
       ],
        
       location: {
-        center: [29.715, 13.622],
+        center: [-87.0, 13.622],
         zoom: 2.1,
         pitch: 0,
         bearing: 0,
@@ -102,8 +102,9 @@ export default {
       description: "Legal protections make estimating the total number of uncontacted peoples challenging, but estimates point to between <b>100 and 200 uncontacted tribes</b> numbering up to <b>10,000 individuals total</b>. <br><br>Mongabay mapped legally recognized lands used by isolated Indigenous peoples worldwide and analyzed forest cover loss from 2010 to 2024. Boundaries of 84 lands were compiled and verified with Indigenous organizations, experts, and the international working group on Indigenous Peoples in Isolation and Initial Contact (GTI PIACI), using data from Global Forest Watch.<br><br><b>Below are the Top 10 lands with highest tree cover loss, all of these located throught South America.</b>",
        
       location: {
-        center: [-56.542931, -10.519600],
-        zoom: 2.25,
+        center: [-61.339655, -6.100119
+],
+        zoom: 3.5,
         pitch: 0,
         bearing: 0,
       },
