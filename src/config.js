@@ -10,8 +10,8 @@ export default {
   intro: {
     title: 'Forests at the Edge',
     subtitle:
-      "Tracking deforestation across isolated tribal lands worldwide. These are the 10 lands with the highest tree cover loss.",
-    date: 'March 21, 2026',
+      "Tracking deforestation across isolated tribal lands worldwide. These are the 10 lands that lost the largest share of their forest.",
+    date: 'THIS IS A DRAFT',
     social: [
       {
         name: 'X',
@@ -99,7 +99,7 @@ export default {
       alignment: 'fully',
       hidden: false,
       title: ' ',
-      description: "Legal protections make estimating the total number of uncontacted peoples challenging, but estimates point to between <b>100 and 200 uncontacted tribes</b> numbering up to <b>10,000 individuals total</b>. <br><br>Mongabay mapped legally recognized lands used by isolated Indigenous peoples worldwide and analyzed forest cover loss from 2010 to 2024. Boundaries of 84 lands were compiled and verified with Indigenous organizations, experts, and the international working group on Indigenous Peoples in Isolation and Initial Contact (GTI PIACI), using data from Global Forest Watch.<br><br><b>Below are the Top 10 lands with highest tree cover loss, all of these located throught South America.</b>",
+      description: "Legal protections make estimating the total number of uncontacted peoples challenging, but estimates point to between <b>100 and 200 uncontacted tribes</b> numbering up to <b>10,000 individuals total</b>. <br><br>Mongabay mapped legally recognized lands used by isolated Indigenous peoples worldwide and analyzed forest cover loss from 2010 to 2024. Boundaries of 84 lands were compiled and verified with Indigenous organizations, experts, and the international working group on Indigenous Peoples in Isolation and Initial Contact (GTI PIACI), using data from Global Forest Watch.<br><br><b>Below are the Top 10 lands that lost the largest share of their forest, all of them in Brazil and Bolivia.</b>",
        
       location: {
         center: [-61.339655, -6.100119
@@ -121,7 +121,7 @@ export default {
       alignment: 'left',
       hidden: false,
       title: '#10 Awá',
-      description: "Home to:<br><b>Isolated people of Mão de onça</b><br><br>• Country: Brazil<br>• Territory: 117,000 ha<br>• Forest loss: 15,000 ha<br>• Forest loss per ha of territory: 0.129 ha",
+      description: "Home to:<br><b>Isolated people of Mão de onça</b><br><br>• Country: Brazil<br>• Territory: 117,000 ha<br>• Forest loss: 15,000 ha<br>• Share of territory lost: 12.8%",
         
       legend: [
         {
@@ -154,7 +154,7 @@ export default {
       alignment: 'right',
       hidden: false,
       title: '#9 Kayapó',
-      description: "Home to:<br><b>Isolated people of Rio Fresco e Mebengôkre</b><br><br>• Country: Brazil<br>• Territory: 3,281,214 ha<br>• Forest loss: 455,000 ha<br>• Forest loss per ha of territory: 0.137 ha",       
+      description: "Home to:<br><b>Isolated people of Rio Fresco e Mebengôkre</b><br><br>• Country: Brazil<br>• Territory: 3,281,214 ha<br>• Forest loss: 455,000 ha<br>• Share of territory lost: 13.9%",       
 
      legend: [
         {
@@ -187,7 +187,7 @@ export default {
       alignment: 'left',
       hidden: false,
       title: '#8 Ituna/Itatá',
-      description: "Home to:<br><b>Isolated people of Igarapé Ipiaçava</b><br><br>• Country: Brazil<br>• Territory: 142,807 ha<br>• Forest loss: 20,000 ha<br>• Forest loss per ha of territory: 0.140 ha",       
+      description: "Home to:<br><b>Isolated people of Igarapé Ipiaçava</b><br><br>• Country: Brazil<br>• Territory: 142,807 ha<br>• Forest loss: 20,000 ha<br>• Share of territory lost: 14.0%",       
   
        legend: [
         {
@@ -220,7 +220,7 @@ export default {
       alignment: 'right',
       hidden: false,
       title: '#7 Otuquis National Park',
-      description: "Home to:<br><b>The Ayoreo</b><br><br>• Country: Bolivia<br>• Territory: 902,168 ha<br>• Forest loss: 130,000 ha<br>• Forest loss per ha of territory: 0.144 ha",       
+      description: "Home to:<br><b>The Ayoreo</b><br><br>• Country: Bolivia<br>• Territory: 902,168 ha<br>• Forest loss: 130,000 ha<br>• Share of territory lost: 14.4%",       
  
       legend: [
         {
@@ -253,7 +253,7 @@ export default {
       alignment: 'left',
       hidden: false,
       title: '#6 Araribóia',
-      description: "Home to:<br><b>Isolated people of Awá</b><br><br>• Country: Brazil<br>• Territory: 413,548 ha<br>• Forest loss: 60,000 ha<br>• Forest loss per ha of territory: 0.145 ha",       
+      description: "Home to:<br><b>Isolated people of Awá</b><br><br>• Country: Brazil<br>• Territory: 413,548 ha<br>• Forest loss: 60,000 ha<br>• Share of territory lost: 14.5%",       
   
        legend: [
         {
@@ -286,7 +286,7 @@ export default {
       alignment: 'right',
       hidden: false,
       title: '#5 Apiaká-Kayabi',
-      description: "Home to:<br><b>Isolated people of Rio dos Peixes</b><br><br>• Country: Brazil<br>• Territory: 109,278 ha<br>• Forest loss: 16,000 ha<br>• Forest loss per ha of territory: 0.146 ha",     
+      description: "Home to:<br><b>Isolated people of Rio dos Peixes</b><br><br>• Country: Brazil<br>• Territory: 109,278 ha<br>• Forest loss: 16,000 ha<br>• Share of territory lost: 14.6%",     
  
       legend: [
         {
@@ -319,7 +319,7 @@ export default {
       alignment: 'left',
       hidden: false,
       title: '#4 Chacobo-Pacahuara',
-      description: "Home to:<br><b>The Pacahuara</b><br><br>• Country: Bolivia<br>• Territory: 517,307 ha<br>• Forest loss: 78,860 ha<br>• Forest loss per ha of territory: 0.152 ha",      
+      description: "Home to:<br><b>The Pacahuara</b><br><br>• Country: Bolivia<br>• Territory: 517,307 ha<br>• Forest loss: 79,000 ha<br>• Share of territory lost: 15.2%",      
 
      legend: [
         {
@@ -352,7 +352,7 @@ export default {
       alignment: 'right',
       hidden: false,
       title: "#3 T'simane Indigenous Territory",
-      description: "Home to:<br><b>The T'simane</b><br><br>• Country: Bolivia<br>• Territory: 520,765  ha<br>• Forest loss: 100,000 ha<br>• Forest loss per ha of territory: 0.192 ha", 
+      description: "Home to:<br><b>The T'simane</b><br><br>• Country: Bolivia<br>• Territory: 520,765 ha<br>• Forest loss: 100,000 ha<br>• Share of territory lost: 19.2%", 
   
        legend: [
         {
@@ -385,7 +385,7 @@ export default {
       alignment: 'left',
       hidden: false,
       title: '#2 Xikrin do Cateté',
-      description: "Home to:<br><b>Isolated people of the TI Xikrin do Cateté</b><br><br>• Country: Brazil<br>• Territory: 436,507 ha<br>• Forest loss: 95,000 ha<br>• Forest loss per ha of territory: 0.218 ha",      
+      description: "Home to:<br><b>Isolated people of the TI Xikrin do Cateté</b><br><br>• Country: Brazil<br>• Territory: 436,507 ha<br>• Forest loss: 95,000 ha<br>• Share of territory lost: 21.8%",      
    
         legend: [
         {
@@ -418,7 +418,7 @@ export default {
       alignment: 'right',
       hidden: false,
       title: '#1 Ñembi guasu Conservation Area',
-      description: "Home to:<br><b>The Ayoreo</b><br><br>• Country: Bolivia<br>• Territory: 1,134,788 ha<br>• Forest loss: 300,000 ha<br>• Forest loss per ha of territory: 0.264 ha",      
+      description: "Home to:<br><b>The Ayoreo</b><br><br>• Country: Bolivia<br>• Territory: 1,134,788 ha<br>• Forest loss: 300,000 ha<br>• Share of territory lost: 26.4%",      
 
      legend: [
         {
